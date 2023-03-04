@@ -9,7 +9,7 @@ Feature: The application should be running
   @regression @test2
   Scenario: another search
     Given I am on the home page
-    When I search for "useless box"
+    When I search for "USELESS BOX"
     Then I should see more results
 
 
